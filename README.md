@@ -1,5 +1,14 @@
 # OpenCore EFI Folder for Acer Aspire 3 A315-56-327T
 
+- CPU: Intel Core i3-1005G1
+- GPU: Intel UHD Graphics G1
+- RAM: 8 GB 2666MHz / Dual Channel
+- SSD: WD Green SN530
+- Audio Codec: ALC255
+- Ethernet Card: RTL8111
+- Wifi/BT Card: RTL8821CE
+- Touchpad: PS2
+
 Tested on macOS 11.7.1 Big Sur
 
 OpenCore 0.8.6
