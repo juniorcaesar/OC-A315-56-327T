@@ -22,6 +22,7 @@ Working:
 
 Not Working:
 * Wi-Fi & Bluetooth (RTL8821CE is not supported on macOS)
+* HDMI (doesn't work on Ice Lake GPU's, they only support DP)
 
 >This is the RELEASE version of OpenCore so you may want to change it to the DEBUG version for troubleshooting.
 
