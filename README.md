@@ -7,9 +7,9 @@
 - Audio Codec: ALC255
 - Ethernet Card: RTL8111
 - Wifi/BT Card: RTL8821CE
-- Touchpad: PS2
+- Touchpad: I2C
 
-Tested on macOS 11.7.1 Big Sur
+Tested on macOS 11.7.1 Big Sur & 12.6.1 Monterey
 
 OpenCore 0.8.6
 
@@ -17,7 +17,7 @@ OpenCore 0.8.6
 
 Working:
 
-* Audio (Headphones, Headset with no mic support, Built-in Microphones)
+* Audio (Headphones, Headset, Built-in Microphones)
 * Keyboard & Touchpad
 * Ethernet
 * GPU Acceleration
@@ -32,6 +32,7 @@ Working:
 Not Working:
 * Wi-Fi & Bluetooth (RTL8821CE is not supported on macOS)
 * HDMI (doesn't work on Ice Lake GPU's, they only support DP)
+* Headset mic stops working after a while, use internal mics instead.)
 
 >This is the RELEASE version of OpenCore so you may want to change it to the DEBUG version for troubleshooting.
 
