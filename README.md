@@ -1,5 +1,10 @@
 # OpenCore EFI Folder for Acer Aspire 3 A315-56-327T
 
+![Big Sur](https://raw.githubusercontent.com/juniorcaesar/OC-A315-56-327T/main/Screenshots/SCR-20221203-jf4.jpeg)
+
+![Monterey](https://raw.githubusercontent.com/juniorcaesar/OC-A315-56-327T/main/Screenshots/SCR-20221210-ih7.jpeg)
+
+
 - CPU: Intel Core i3-1005G1
 - GPU: Intel UHD Graphics G1
 - RAM: 8 GB 2666MHz / Dual Channel
