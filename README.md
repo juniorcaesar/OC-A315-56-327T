@@ -38,5 +38,9 @@ Not Working:
 
 >It includes custom AppleALC with new layout for this laptop (layout-id=69) so don't upgrade AppleALC.kext when a new update drops. I'll make a pull request soon to get my layout added to the AppleALC repo.
 
-**ComboJack (https://github.com/hackintosh-stuff/ComboJack) IS REQUIRED TO GET SOUND FROM HEADPHONES & HEADSET AFTER SLEEP.**
+**ComboJack (https://github.com/hackintosh-stuff/ComboJack) or ALCPlugFix-Swift (https://github.com/black-dragon74/ALCPlugFix-Swift) IS REQUIRED TO GET SOUND FROM HEADPHONES & HEADSET AFTER SLEEP.**
+
+* ComboJack is confirmed to work on Big Sur. It makes a loud activation & deactivation noise through headphones when it is used on Monterey.
 >Its kexts are already in this EFI so just run ComboJack_Installer/install.sh in terminal after you install macOS.
+* ALCPlugFix-Swift is confirmed to work on Monterey. It may or may not work on Big Sur, but I see no reason why it wouldn't. You can give it a try.
+
