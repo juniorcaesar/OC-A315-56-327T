@@ -2,12 +2,12 @@
 
 ![Big Sur](https://raw.githubusercontent.com/juniorcaesar/OC-A315-56-327T/main/Screenshots/SCR-20221203-jf4.jpeg)
 <p align="center">
-// macOS Big Sur 11.7.1
+macOS Big Sur 11.7.1
 </p>
 
 ![Monterey](https://raw.githubusercontent.com/juniorcaesar/OC-A315-56-327T/main/Screenshots/SCR-20221210-ih7.jpeg)
 <p align="center">
-// macOS Monterey 12.6.1
+macOS Monterey 12.6.1
 </p>
 
 - CPU: Intel Core i3-1005G1
