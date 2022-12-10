@@ -30,6 +30,318 @@
 	</dict>
 	<dict>
 		<key>Comment</key>
+		<string>Enable CTIA Microphone (EarPods)</string>
+		<key>Enabled</key>
+		<true/>
+		<key>Node ID</key>
+		<string>0x20</string>
+		<key>On Boot</key>
+		<false/>
+		<key>On Connect</key>
+		<true/>
+		<key>On Disconnect</key>
+		<false/>
+		<key>On Mute</key>
+		<false/>
+		<key>On Sleep</key>
+		<false/>
+		<key>On Unmute</key>
+		<false/>
+		<key>On Wake</key>
+		<false/>
+		<key>Param</key>
+		<string>0x45</string>
+		<key>Verb</key>
+		<string>SET_COEF_INDEX</string>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>Enable CTIA Microphone (EarPods)</string>
+		<key>Enabled</key>
+		<true/>
+		<key>Node ID</key>
+		<string>0x20</string>
+		<key>On Boot</key>
+		<false/>
+		<key>On Connect</key>
+		<true/>
+		<key>On Disconnect</key>
+		<false/>
+		<key>On Mute</key>
+		<false/>
+		<key>On Sleep</key>
+		<false/>
+		<key>On Unmute</key>
+		<false/>
+		<key>On Wake</key>
+		<false/>
+		<key>Param</key>
+		<string>0xd489</string>
+		<key>Verb</key>
+		<string>SET_PROC_COEF</string>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>Enable CTIA Microphone (EarPods)</string>
+		<key>Enabled</key>
+		<true/>
+		<key>Node ID</key>
+		<string>0x20</string>
+		<key>On Boot</key>
+		<false/>
+		<key>On Connect</key>
+		<true/>
+		<key>On Disconnect</key>
+		<false/>
+		<key>On Mute</key>
+		<false/>
+		<key>On Sleep</key>
+		<false/>
+		<key>On Unmute</key>
+		<false/>
+		<key>On Wake</key>
+		<false/>
+		<key>Param</key>
+		<string>0x1b</string>
+		<key>Verb</key>
+		<string>SET_COEF_INDEX</string>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>Enable CTIA Microphone (EarPods)</string>
+		<key>Enabled</key>
+		<true/>
+		<key>Node ID</key>
+		<string>0x20</string>
+		<key>On Boot</key>
+		<false/>
+		<key>On Connect</key>
+		<true/>
+		<key>On Disconnect</key>
+		<false/>
+		<key>On Mute</key>
+		<false/>
+		<key>On Sleep</key>
+		<false/>
+		<key>On Unmute</key>
+		<false/>
+		<key>On Wake</key>
+		<false/>
+		<key>Param</key>
+		<string>0x0c2b</string>
+		<key>Verb</key>
+		<string>SET_PROC_COEF</string>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>Enable CTIA Microphone (EarPods)</string>
+		<key>Enabled</key>
+		<true/>
+		<key>Node ID</key>
+		<string>0x57</string>
+		<key>On Boot</key>
+		<false/>
+		<key>On Connect</key>
+		<true/>
+		<key>On Disconnect</key>
+		<false/>
+		<key>On Mute</key>
+		<false/>
+		<key>On Sleep</key>
+		<false/>
+		<key>On Unmute</key>
+		<false/>
+		<key>On Wake</key>
+		<false/>
+		<key>Param</key>
+		<string>0x03</string>
+		<key>Verb</key>
+		<string>SET_COEF_INDEX</string>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>Enable CTIA Microphone (EarPods)</string>
+		<key>Enabled</key>
+		<true/>
+		<key>Node ID</key>
+		<string>0x57</string>
+		<key>On Boot</key>
+		<false/>
+		<key>On Connect</key>
+		<true/>
+		<key>On Disconnect</key>
+		<false/>
+		<key>On Mute</key>
+		<false/>
+		<key>On Sleep</key>
+		<false/>
+		<key>On Unmute</key>
+		<false/>
+		<key>On Wake</key>
+		<false/>
+		<key>Param</key>
+		<string>0x8ea6</string>
+		<key>Verb</key>
+		<string>SET_PROC_COEF</string>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>Disable CTIA Microphone (EarPods)</string>
+		<key>Enabled</key>
+		<true/>
+		<key>Node ID</key>
+		<string>0x20</string>
+		<key>On Boot</key>
+		<false/>
+		<key>On Connect</key>
+		<false/>
+		<key>On Disconnect</key>
+		<true/>
+		<key>On Mute</key>
+		<false/>
+		<key>On Sleep</key>
+		<false/>
+		<key>On Unmute</key>
+		<false/>
+		<key>On Wake</key>
+		<false/>
+		<key>Param</key>
+		<string>0x45</string>
+		<key>Verb</key>
+		<string>SET_COEF_INDEX</string>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>Disable CTIA Microphone (EarPods)</string>
+		<key>Enabled</key>
+		<true/>
+		<key>Node ID</key>
+		<string>0x20</string>
+		<key>On Boot</key>
+		<false/>
+		<key>On Connect</key>
+		<false/>
+		<key>On Disconnect</key>
+		<true/>
+		<key>On Mute</key>
+		<false/>
+		<key>On Sleep</key>
+		<false/>
+		<key>On Unmute</key>
+		<false/>
+		<key>On Wake</key>
+		<false/>
+		<key>Param</key>
+		<string>0xd089</string>
+		<key>Verb</key>
+		<string>SET_PROC_COEF</string>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>Disable CTIA Microphone (EarPods)</string>
+		<key>Enabled</key>
+		<true/>
+		<key>Node ID</key>
+		<string>0x20</string>
+		<key>On Boot</key>
+		<false/>
+		<key>On Connect</key>
+		<false/>
+		<key>On Disconnect</key>
+		<true/>
+		<key>On Mute</key>
+		<false/>
+		<key>On Sleep</key>
+		<false/>
+		<key>On Unmute</key>
+		<false/>
+		<key>On Wake</key>
+		<false/>
+		<key>Param</key>
+		<string>0x1b</string>
+		<key>Verb</key>
+		<string>SET_COEF_INDEX</string>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>Disable CTIA Microphone (EarPods)</string>
+		<key>Enabled</key>
+		<true/>
+		<key>Node ID</key>
+		<string>0x20</string>
+		<key>On Boot</key>
+		<false/>
+		<key>On Connect</key>
+		<false/>
+		<key>On Disconnect</key>
+		<true/>
+		<key>On Mute</key>
+		<false/>
+		<key>On Sleep</key>
+		<false/>
+		<key>On Unmute</key>
+		<false/>
+		<key>On Wake</key>
+		<false/>
+		<key>Param</key>
+		<string>0x0c0b</string>
+		<key>Verb</key>
+		<string>SET_PROC_COEF</string>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>Disable CTIA Microphone (EarPods)</string>
+		<key>Enabled</key>
+		<true/>
+		<key>Node ID</key>
+		<string>0x57</string>
+		<key>On Boot</key>
+		<false/>
+		<key>On Connect</key>
+		<false/>
+		<key>On Disconnect</key>
+		<true/>
+		<key>On Mute</key>
+		<false/>
+		<key>On Sleep</key>
+		<false/>
+		<key>On Unmute</key>
+		<false/>
+		<key>On Wake</key>
+		<false/>
+		<key>Param</key>
+		<string>0x03</string>
+		<key>Verb</key>
+		<string>SET_COEF_INDEX</string>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>Disable CTIA Microphone (EarPods)</string>
+		<key>Enabled</key>
+		<true/>
+		<key>Node ID</key>
+		<string>0x57</string>
+		<key>On Boot</key>
+		<false/>
+		<key>On Connect</key>
+		<false/>
+		<key>On Disconnect</key>
+		<true/>
+		<key>On Mute</key>
+		<false/>
+		<key>On Sleep</key>
+		<false/>
+		<key>On Unmute</key>
+		<false/>
+		<key>On Wake</key>
+		<false/>
+		<key>Param</key>
+		<string>0x8aa6</string>
+		<key>Verb</key>
+		<string>SET_PROC_COEF</string>
+	</dict>
+	<dict>
+		<key>Comment</key>
 		<string>Enable EAPD Sense</string>
 		<key>Enabled</key>
 		<true/>
