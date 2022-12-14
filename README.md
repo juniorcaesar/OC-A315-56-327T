@@ -42,7 +42,7 @@ Working:
 Not Working:
 * Wi-Fi & Bluetooth (RTL8821CE is not supported on macOS)
 * HDMI (doesn't work on Ice Lake GPU's, they only support DP)
-* Headset mic stops working after a while on Big Sur, it's not working on Monterey at all. Use internal mics instead (tested with EarPods.)
+* Headset mic doesn't work OOB, you can use ALCPlugFix-Swift to send [appropriate verbs](https://github.com/torvalds/linux/blob/d07f6ca923ea0927a1024dfccafc5b53b61cfecc/sound/pci/hda/patch_realtek.c#L5026) in order to use it.
 
 >This is the RELEASE version of OpenCore so you may want to change it to the DEBUG version for troubleshooting.
 
