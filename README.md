@@ -46,11 +46,8 @@ Not Working:
 
 >This is the RELEASE version of OpenCore so you may want to change it to the DEBUG version for troubleshooting.
 
->It includes custom AppleALC with new layout for this laptop (layout-id=69) so don't upgrade AppleALC.kext when a new update drops. I'll make a pull request soon to get my layout added to the AppleALC repo.
+* This EFI includes custom AppleALC with new layout for this laptop (layout-id=69) so don't upgrade AppleALC.kext when a new update drops. I'll make a pull request soon to get my layout added to the AppleALC repo (when i properly fix inputs/outputs, i'm working on this for 4 weeks :( ).
 
-**ComboJack (https://github.com/hackintosh-stuff/ComboJack) or ALCPlugFix-Swift (https://github.com/black-dragon74/ALCPlugFix-Swift) IS REQUIRED TO GET SOUND FROM HEADPHONES & HEADSET AFTER SLEEP.**
-
-* ComboJack is confirmed to work on Big Sur. It makes an activation & deactivation noise (loud pop) through headphones when it is used on Monterey.
->Its kexts are already in this EFI so just run ComboJack_Installer/install.sh in terminal after you install macOS.
-* ALCPlugFix-Swift is confirmed to work on Monterey. It may or may not work on Big Sur, but I see no reason why it wouldn't. You can give it a try.
+* If you need headset mic, ComboJack is confirmed to work on Big Sur. However, it makes an activation & deactivation noise (loud pop) through headphones when it is used on Monterey.
+>VerbStub is already in this EFI so just activate it in config.plist and run ComboJack_Installer/install.sh in terminal after you install macOS.
 
