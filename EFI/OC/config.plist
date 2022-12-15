@@ -1547,9 +1547,9 @@
 			<key>AudioDevice</key>
 			<string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
 			<key>AudioOutMask</key>
-			<integer>-1</integer>
+			<integer>1</integer>
 			<key>AudioSupport</key>
-			<true/>
+			<false/>
 			<key>DisconnectHda</key>
 			<false/>
 			<key>MaximumGain</key>
@@ -1559,7 +1559,7 @@
 			<key>MinimumAudibleGain</key>
 			<integer>-55</integer>
 			<key>PlayChime</key>
-			<string>Enabled</string>
+			<string>Auto</string>
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
@@ -1604,18 +1604,6 @@
 				<false/>
 				<key>Path</key>
 				<string>OpenPartitionDxe.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string>AudioDxe.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>LoadEarly</key>
-				<false/>
-				<key>Path</key>
-				<string>AudioDxe.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
