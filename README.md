@@ -13,7 +13,7 @@ macOS Monterey 12.6.1
 - CPU: Intel Core i3-1005G1
 - GPU: Intel UHD Graphics G1
 - RAM: 8 GB 2666MHz / Dual Channel
-- SSD: WD Green SN530
+- SSD: WD Blue SN530
 - Audio Codec: ALC255
 - Ethernet Card: RTL8111
 - Wifi/BT Card: RTL8821CE
@@ -37,17 +37,15 @@ Working:
 * Sleep
 * Webcam
 * Battery Percentage
-* Boot Chime
 
 Not Working:
-* Wi-Fi & Bluetooth (RTL8821CE is not supported on macOS)
+* Wi-Fi & Bluetooth (RTL8821CE is not supported on macOS; however, you can replace it with one of the AirPort cards easily)
 * HDMI (doesn't work on Ice Lake GPU's, they only support DP)
-* Headset mic doesn't work OOB, you can use ALCPlugFix-Swift to send [appropriate verbs](https://github.com/torvalds/linux/blob/d07f6ca923ea0927a1024dfccafc5b53b61cfecc/sound/pci/hda/patch_realtek.c#L5026) in order to use it.
+* Headset mic doesn't work OOB, you can use ComboJack or ALCPlugFix-Swift to send [appropriate verbs](https://github.com/torvalds/linux/blob/d07f6ca923ea0927a1024dfccafc5b53b61cfecc/sound/pci/hda/patch_realtek.c#L5026) in order to use it.
 
 >This is the RELEASE version of OpenCore so you may want to change it to the DEBUG version for troubleshooting.
 
-* This EFI includes custom AppleALC with new layout for this laptop (layout-id=69) so don't upgrade AppleALC.kext when a new update drops. I'll make a pull request soon to get my layout added to the AppleALC repo (when i properly fix inputs/outputs, i'm working on this for 4 weeks :( ).
+* Headphones / Headsets may produce static noise when you unplug the power adapter. To solve it, put the computer into sleep mode and wake it after waiting for 4 or 5 seconds.
 
-* If you need headset mic, ComboJack is confirmed to work. However, it makes an activation & deactivation noise (loud pop) through headphones when it is used. This is probably due to the new layout and I'm trying to fix it.
->VerbStub is already in this EFI so just activate it in config.plist and run ComboJack_Installer/install.sh in terminal after you install macOS.
+* If you want to use ComboJack, VerbStub is already in this EFI so just activate it in config.plist and run ComboJack_Installer/install.sh in terminal after you install macOS.
 
