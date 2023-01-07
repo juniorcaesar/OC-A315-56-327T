@@ -46,8 +46,7 @@ Not Working:
 
 >This is the RELEASE version of OpenCore so you may want to change it to the DEBUG version for troubleshooting.
 
-* This EFI includes custom AppleALC with new layout for this laptop (layout-id=69) so don't upgrade AppleALC.kext when a new update drops. I'll make a pull request soon to get my layout added to the AppleALC repo (when i properly fix inputs/outputs, i'm working on this for 4 weeks :( ).
+* Headphones / Headsets may produce static noise when you unplug the power adapter. To solve it, put the computer into sleep mode and wake it after waiting for 4 or 5 seconds.
 
-* If you need headset mic, ComboJack is confirmed to work. However, it makes an activation & deactivation noise (loud pop) through headphones when it is used. This is probably due to the new layout and I'm trying to fix it.
->VerbStub is already in this EFI so just activate it in config.plist and run ComboJack_Installer/install.sh in terminal after you install macOS.
+* If you need headset mic, ComboJack is confirmed to work. VerbStub is already in this EFI so just activate it in config.plist and run ComboJack_Installer/install.sh in terminal after you install macOS.
 
