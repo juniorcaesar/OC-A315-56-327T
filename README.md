@@ -21,7 +21,7 @@ macOS Monterey 12.6.1
 
 Tested on macOS 11.7.1 Big Sur & 12.6.1 Monterey
 
-OpenCore 0.8.6
+OpenCore 0.8.8
 
 **Do NOT forget to enter your SMBIOS values in the config file.**
 
