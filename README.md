@@ -45,7 +45,7 @@ Not Working:
 
 >This is the RELEASE version of OpenCore so you may want to change it to the DEBUG version for troubleshooting.
 
-* Headphones / Headsets may produce static noise when you unplug the power adapter. To solve it, put the computer into sleep mode and wake it after waiting for 4 or 5 seconds.
+* Sound disappears on headsets after some time when internal microphone activates and enters sleep state. For now, it can be fixed by unplugging the headset & plugging it back in. This only happens when the laptop wakes up after sleep.
 
 * If you want to use ComboJack, VerbStub is already in this EFI so just activate it in config.plist and run ComboJack_Installer/install.sh in terminal after you install macOS.
 
