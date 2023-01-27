@@ -4,7 +4,7 @@
 [![macOS](https://img.shields.io/badge/macOS-Ventura_13.1-yellow)](https://www.apple.com/macos/ventura/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.8-blue)](https://github.com/acidanthera/OpenCorePkg)
 
-![Acer Aspire 3 A315-56] (https://raw.githubusercontent.com/juniorcaesar/OC-A315-56-327T/main/Screenshots/aspire.png)
+![Acer Aspire 3 A315-56](https://raw.githubusercontent.com/juniorcaesar/OC-A315-56-327T/main/Screenshots/aspire.png)
 
 - CPU: Intel Core i3-1005G1
 - GPU: Intel UHD Graphics G1
