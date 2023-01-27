@@ -3,3 +3,5 @@ description: OpenCore EFI Folder for Acer Aspire 3 A315-56-327T
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-slate
+github:
+    zip_url: https://github.com/juniorcaesar/OC-A315-56-327T/releases
