@@ -1,5 +1,3 @@
-# OpenCore EFI Folder for Acer Aspire 3 A315-56-327T
-
 ![Big Sur](https://raw.githubusercontent.com/juniorcaesar/OC-A315-56-327T/main/Screenshots/SCR-20221203-jf4.jpeg)
 <p align="center">
 macOS Big Sur 11.7.1
