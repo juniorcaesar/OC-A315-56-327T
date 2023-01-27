@@ -1,18 +1,10 @@
 [![status - stable](https://img.shields.io/badge/status-stable-success)](https://)
 [![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.7.3-orange)](https://www.apple.com/macos/big-sur/)
-[![macOS](https://img.shields.io/badge/macOS-Monterey_12.6.3-purple)](https://www.apple.com/macos/monterey/)
+[![macOS](https://img.shields.io/badge/macOS-Monterey_12.6.1-purple)](https://www.apple.com/macos/monterey/)
 [![macOS](https://img.shields.io/badge/macOS-Ventura_13.1-yellow)](https://www.apple.com/macos/ventura/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.8-blue)](https://github.com/acidanthera/OpenCorePkg)
 
-![Big Sur](https://raw.githubusercontent.com/juniorcaesar/OC-A315-56-327T/main/Screenshots/SCR-20221203-jf4.jpeg)
-<p align="center">
-macOS Big Sur 11.7.1
-</p>
-
-![Monterey](https://raw.githubusercontent.com/juniorcaesar/OC-A315-56-327T/main/Screenshots/SCR-20221210-ih7.jpeg)
-<p align="center">
-macOS Monterey 12.6.1
-</p>
+![Acer Aspire 3 A315-56] (https://raw.githubusercontent.com/juniorcaesar/OC-A315-56-327T/main/Screenshots/aspire.png)
 
 - CPU: Intel Core i3-1005G1
 - GPU: Intel UHD Graphics G1
@@ -22,10 +14,6 @@ macOS Monterey 12.6.1
 - Ethernet Card: RTL8111
 - Wifi/BT Card: RTL8821CE
 - Touchpad: I2C
-
-Tested on macOS 11.7.3 Big Sur & 12.6.1 Monterey & 13.1 Ventura
-
-OpenCore 0.8.8
 
 **Do NOT forget to enter your SMBIOS values in the config file.**
 
