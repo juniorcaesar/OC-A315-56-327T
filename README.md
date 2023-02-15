@@ -2,7 +2,7 @@
 [![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.7.3-orange)](https://www.apple.com/macos/big-sur/)
 [![macOS](https://img.shields.io/badge/macOS-Monterey_12.6.1-purple)](https://www.apple.com/macos/monterey/)
 [![macOS](https://img.shields.io/badge/macOS-Ventura_13.1-yellow)](https://www.apple.com/macos/ventura/)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.8-blue)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.9-blue)](https://github.com/acidanthera/OpenCorePkg)
 
 ![Acer Aspire 3 A315-56](https://raw.githubusercontent.com/juniorcaesar/OC-A315-56-327T/main/Screenshots/aspire.png)
 
@@ -33,5 +33,5 @@
 * Battery Percentage
 
 ## Not Working:
-* Wi-Fi & Bluetooth (RTL8821CE is not supported on macOS; however, you can replace it with one of the AirPort cards easily)
+* Wi-Fi & Bluetooth (RTL8821CE is not supported on macOS; however, you can replace it with one of the supported cards easily)
 * HDMI (doesn't work on Ice Lake GPU's, they only support DP)
