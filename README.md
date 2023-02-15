@@ -35,11 +35,3 @@
 ## Not Working:
 * Wi-Fi & Bluetooth (RTL8821CE is not supported on macOS; however, you can replace it with one of the AirPort cards easily)
 * HDMI (doesn't work on Ice Lake GPU's, they only support DP)
-* Sound disappears on headsets after some time when internal microphone activates and enters sleep state. For now, it can be fixed by unplugging the headset & plugging it back in. This only happens when the laptop wakes up after sleep.
-
-
-## Notes
-
-* Headset mic doesn't work OOB, you can use ALCPlugFix-Swift to send [appropriate verbs](https://github.com/torvalds/linux/blob/d07f6ca923ea0927a1024dfccafc5b53b61cfecc/sound/pci/hda/patch_realtek.c#L5026) in order to use it.
-* If you want to use ComboJack, VerbStub is already in this EFI so just activate it in config.plist and run ComboJack_Installer/install.sh in terminal after you install macOS.
-
