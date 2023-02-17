@@ -1,5 +1,5 @@
 [![status - stable](https://img.shields.io/badge/status-stable-success)](https://)
-[![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.7.3-orange)](https://www.apple.com/macos/big-sur/)
+[![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.7.4-orange)](https://www.apple.com/macos/big-sur/)
 [![macOS](https://img.shields.io/badge/macOS-Monterey_12.6.1-purple)](https://www.apple.com/macos/monterey/)
 [![macOS](https://img.shields.io/badge/macOS-Ventura_13.1-yellow)](https://www.apple.com/macos/ventura/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.9-blue)](https://github.com/acidanthera/OpenCorePkg)
