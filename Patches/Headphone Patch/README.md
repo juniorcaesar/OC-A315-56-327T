@@ -2,9 +2,10 @@
 
 ## How to install:
 
+* Move "ALC255.plist" to a place/folder where the file won't get deleted. ALCPlugFix reads this file every time macOS starts and wakes from sleep.
 * Run "install.sh" from terminal
-* Drag the "ALC255.plist" file into the terminal window
-* When the installation finishes, go to Settings-Privacy and allow ALCPlugFix to run
+* Drag "ALC255.plist" to the terminal window
+* When the installation finishes, go to Settings-Security & Privacy and allow ALCPlugFix to run
 * Reboot
 * Enjoy!
 
