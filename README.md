@@ -1,8 +1,8 @@
 [![status - stable](https://img.shields.io/badge/status-stable-success)](https://)
-[![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.7.4-orange)](https://www.apple.com/macos/big-sur/)
+[![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.7.7-orange)](https://www.apple.com/macos/big-sur/)
 [![macOS](https://img.shields.io/badge/macOS-Monterey_12.6.1-purple)](https://www.apple.com/macos/monterey/)
 [![macOS](https://img.shields.io/badge/macOS-Ventura_13.1-yellow)](https://www.apple.com/macos/ventura/)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.8.9-blue)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.3-blue)](https://github.com/acidanthera/OpenCorePkg)
 
 ![Acer Aspire 3 A315-56](https://raw.githubusercontent.com/juniorcaesar/OC-A315-56-327T/main/Screenshots/aspire.png)
 
@@ -21,7 +21,7 @@
 
 ## Working:
 
-* Audio (Speakers, Headphones, Headset, Built-in Microphones)
+* Audio (Speakers, Headphones*, Built-in Microphones)
 * Keyboard & Touchpad
 * Ethernet
 * GPU Acceleration
@@ -35,3 +35,7 @@
 ## Not Working:
 * Wi-Fi & Bluetooth (RTL8821CE is not supported on macOS; however, you can replace it with one of the supported cards easily)
 * HDMI (doesn't work on Ice Lake GPU's, they only support DP)
+
+## Additional Notes
+
+* You need to patch your laptop after the macOS installation in order to use headphones. Head over to Patches/Headphone Patch and read the README.md for additional info.
