@@ -1,5 +1,5 @@
 [![status - stable](https://img.shields.io/badge/status-stable-success)](https://)
-[![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.7.7-orange)](https://www.apple.com/macos/big-sur/)
+[![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.7.9-orange)](https://www.apple.com/macos/big-sur/)
 [![macOS](https://img.shields.io/badge/macOS-Monterey_12.6.1-purple)](https://www.apple.com/macos/monterey/)
 [![macOS](https://img.shields.io/badge/macOS-Ventura_13.1-yellow)](https://www.apple.com/macos/ventura/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.9.3-blue)](https://github.com/acidanthera/OpenCorePkg)
@@ -17,7 +17,7 @@
 
 **Do NOT forget to enter your SMBIOS values in the config file.**
 
->This is the RELEASE version of OpenCore so you may want to change it to the DEBUG version for troubleshooting.
+>Use the DEBUG version to test this EFI on your computer first. After you validate that it works without a problem, you can switch to the RELEASE version.
 
 ## Working:
 
@@ -38,4 +38,9 @@
 
 ## Additional Notes
 
+**Do NOT update the VoodooI2C.kext, it breaks the physical trackpad buttons on this device.**
+
 * You need to patch your laptop after the macOS installation in order to use headphones. Head over to Patches/Headphone Patch and read the README.md for additional info.
+	- Sound may not come through headphones when the built-in microphone is activated after sleep. In that case, you can plug off & plug in the headphones to solve it.  
+
+* Sometimes there will be a latency in registering the trackpad inputs while the laptop is connected to AC power. 
